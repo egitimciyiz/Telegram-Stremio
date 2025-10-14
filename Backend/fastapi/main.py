@@ -22,6 +22,7 @@ app = FastAPI(
     title="Telegram Stremio Media Server",
     description="A powerful, self-hosted Telegram Stremio Media Server built with FastAPI, MongoDB, and PyroFork seamlessly integrated with Stremio for automated media streaming and discovery.",
     version=__version__
+    root_path="/deneme"
 )
 
 # --- Middleware Setup ---
